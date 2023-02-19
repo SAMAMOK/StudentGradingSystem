@@ -21,6 +21,7 @@ body{
 	padding: 70px 30px;
 	box-sizing: border-box;
 	border-radius: 10px;
+	overflow: auto;
 
 }
 
@@ -36,7 +37,7 @@ body{
 fieldset{
 	position: relative;
 	width: 800px;
-	height: 480px;
+	height: 550px;
 	margin-left: 150px;
     margin-top: 30px;
     box-sizing: border-box;
@@ -70,6 +71,7 @@ fieldset{
     font-size: 25px;
     position: relative;
     margin-left: 100px;
+	
 
 }
 
