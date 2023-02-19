@@ -8,6 +8,10 @@
       var total_average = (total_prelim+total_midterm+total_final) / 3;
       document.getElementById("ave").value = total_average; 
       
+      document.getElementById("namee").value =  document.getElementById("Studname").value;
+      document.getElementById("subject").value =  document.getElementById("Subject1").value;
+      document.getElementById("coursee").value =  document.getElementById("Course1").value;
+     
 
       if(total_average<60){
         document.getElementById("equ").value = "5";
@@ -47,45 +51,32 @@
       if(total_average>96.0 && total_average<100){
         document.getElementById("equ").value = "1.00";
       }
-
+        
      
   }
 
-    
+  function bura(){
+  
+    document.getElementById("namee").value = "";  
+    document.getElementById("Studname").value = "";
+    document.getElementById("subject").value = "";  
+    document.getElementById("Subject1").value = "";
+    document.getElementById("coursee").value = "";
+    document.getElementById("Course1").value = "";
 
-
-switch(true) {
-  case prelim >= 0 && prelim <= 100:
-    total += prelim;
-    count++;
-    break;
-  default:
-    
-}
-
-switch(true) {
-  case midterm >= 0 && midterm <= 100:
-    total += midterm;
-    count++;
-    break;
-  default:
+    document.getElementById("prelim").value = "";  
+    document.getElementById("midterm").value = "";
+    document.getElementById("final").value = "";  
+    document.getElementById("ave").value = "";
+    document.getElementById("equ").value = "";
    
-}
 
-switch(true) {
-  case final >= 0 && final <= 100:
-    total += final;
-    count++;
-    break;
-  default:
-    alert("Invalid grade for the Final exam!");
-}
+  }
 
-if (count === 3) {
-  let average = total / count;
-  document.write("The total average is " + average.toFixed(2));
-} 
-   
+
+
+
+  
 
 
 
