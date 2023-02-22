@@ -9,9 +9,18 @@ body{
 
 }
 
+.box2 h1{
+	color: yellow;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: blue ;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif	;
+
+}
+
+
 .box{
 	width: 1200px;
-	height: 550px;
+	height: 650px;
 	background-color: #083ae1b3;
 	color: #fff;
 	position: absolute;
@@ -22,6 +31,7 @@ body{
 	box-sizing: border-box;
 	border-radius: 10px;
 	overflow: auto;
+    box-shadow: -1px 0 10px #000000;
 
 }
 
@@ -55,9 +65,15 @@ fieldset{
 }
 
 .box2 legend{
-    font-family:  'Courier New', Courier, monospace;
-    font-size: 35px;
+    font-size: 25px;
+	color: yellow;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: blue ;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif	;
+
 }
+
+
 
 .box2 input{
     position:relative;
@@ -71,6 +87,9 @@ fieldset{
     font-size: 25px;
     position: relative;
     margin-left: 100px;
+	color: yellow;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: 	rgb(184, 236, 31) ;
 	
 
 }
@@ -101,3 +120,6 @@ fieldset{
 	-webkit-transform: scale(1.1);
 	transition: scale(1.1);
 }
+
+
+
