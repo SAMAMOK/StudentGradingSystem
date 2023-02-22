@@ -13,7 +13,8 @@ body{
 	color: yellow;
 	-webkit-text-stroke: 1px;
 	-webkit-text-stroke-color: blue ;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif	;
+	font-family: Impact, BOLD, 'Arial Narrow Bold', sans-serif	;
+	font-size: 50px;
 
 }
 
@@ -44,12 +45,12 @@ body{
 	left: calc(50% - 50px);
 }
 
-fieldset{
+.fieldset{
 	position: relative;
 	width: 800px;
 	height: 550px;
 	margin-left: 150px;
-    margin-top: 30px;
+    margin-top: 10px;
     box-sizing: border-box;
     box-shadow: -1px 0 10px #000000;
 
@@ -58,16 +59,16 @@ fieldset{
 }
 
 .box2 h1{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
+    font-family: font-family: Impact, BOLD, 'Arial Narrow Bold', sans-serif	;
+    font-size: 60px;
     margin-top: 70px;
-    margin-left: 230px;
+    margin-left: 270px;
 }
 
 .box2 legend{
-    font-size: 25px;
+    font-size: 40px;
 	color: yellow;
-	-webkit-text-stroke: 1px;
+	-webkit-text-stroke: 2px;
 	-webkit-text-stroke-color: blue ;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif	;
 
@@ -87,9 +88,9 @@ fieldset{
     font-size: 25px;
     position: relative;
     margin-left: 100px;
-	color: yellow;
+	color: rgb(255, 255, 255);
 	-webkit-text-stroke: 1px;
-	-webkit-text-stroke-color: 	rgb(184, 236, 31) ;
+	-webkit-text-stroke-color: 	rgb(246, 246, 246) ;
 	
 
 }
@@ -99,8 +100,8 @@ fieldset{
 	font-family: "Roboto", sans-serif;
 	font-size: 18px;
 	font-weight: bold;
-	background: rgb(113, 62, 201);
-	width: 800px;
+	background: rgb(2, 2, 165);
+	width: 1050px;
 	padding: 15px;
 	text-align: center;
 	text-decoration: none;
@@ -108,7 +109,7 @@ fieldset{
 	color: #fff;
 	border-radius: 10px;
 	cursor: pointer;
-	margin-left: 10px;
+	margin-left: 15px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	-webkit-transition-propety: box-shadow, transform;
 	transition-property: box-shadow, transform;
@@ -116,10 +117,11 @@ fieldset{
 
 .button1:hover{
 	box-shadow:  0 0 20px rgba(0, 77, 5, 0.5);
-    background-color: rgb(123, 205, 0);
+    background-color: rgb(219, 232, 37);
 	-webkit-transform: scale(1.1);
 	transition: scale(1.1);
 }
+
 
 
 
